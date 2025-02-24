@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+:root 
+{
+    --main-color: #483248;
+    --sec-color: #301934;
+    --third-color: #E6E6FA;
+}
+
+@font-face 
+{
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+
+body
+{
+    overflow-x: hidden;
+    animation-name: bodyCol;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-timeline: Scroll();
+
+    background-color: var(--third-color);
+}
+
+@property --h {
+    syntax:"<number>";
+    inherits:true;
+    initial-value:180;
+}
+
+@keyframes textCol {
+    0% {
+       /* color: hsl(0 100% 50%); */
+       --h:0;
+    }
+    100% {
+        /* color:hsl(3600 100% 50%); */
+        --h:3600;
+    }
+}
+
+
+@keyframes scrolling 
+{
+    0%
+    {
+        width: 0;
+    } 
+    100%  
+    {
+        width: 100%;
+    } 
+}
+
+@keyframes reveal 
+{
+    entry 0%
+    {
+        scale: 0;
+        opacity: 0;
+    } 
+    entry 100%  
+    {
+        scale: 1;
+        opacity: 1;
+    } 
+}
+
+@keyframes bannerReduce
+{
+    contain 0%
+    {
+        width: 0;
+        height: 0;
+        font-size: 0;
+    } 
+    /* 46%
+    {
+        width: 0;
+        height: 0;
+        font-size: 2;
+    }  */
+    cover 100%  
+    {
+        width: 100vw;
+        height: 100vh;
+        font-size: 150;
+    } 
+}
+
+@keyframes bodyCol
+{
+    0%
+    {
+        background-color: var(--sec-color);
+    }
+    50%
+    {
+        background-color: var(--main-color);
+    }
+    100%
+    {
+        background-color: var(--third-color);
+    }
+}
+
+section
+{
+    min-height: 300;
+}
+
+img
+{
+    max-width: 30%;
+    max-height: 300;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-width: 5;
+    border-color: var(--main-color);
+    border-style: solid;
+
+    animation-name: reveal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-timeline: View();
+}
+
+.scroll
+{
+    transform-origin: left;
+    position: sticky;
+    top: 0;
+    padding: 10px 16px;
+    color: aliceblue;
+
+    background-color: var(--main-color);
+    animation-name: scrolling;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-timeline: View();
+}
+
+p
+{
+    margin: auto;
+    max-width: 30%;
+}
+
+h1
+{
+    margin: auto;
+    text-align: center;
+}
+#banner
+{
+    min-height: 100vh;
+}
+#banner h1
+{
+    color: aliceblue;
+    position: sticky;
+    padding: 10;
+    top: 0;
+    margin: auto;
+    
+    background-color: var(--main-color);
+    animation-name: bannerReduce;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-timeline: View();
+}
+.locked
+{
+    margin-top: 50;
+    display: flex;
+    justify-content: center;
+    font-size: 50;
+}
+.locked ul
+{
+    list-style: none;
+    margin: auto;
+    margin-left: 15;
+
+    animation-name: textCol;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-timeline: View();
+
+    color:hsl(var(--h) 100% 50%);
+}
+.locked header
+{
+    position: sticky;
+    top: 45%;
+    margin: auto;
+    margin-top: 0;
+    margin-right: 0;
+    bottom: auto;
+}

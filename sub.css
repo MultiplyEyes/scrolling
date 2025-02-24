@@ -1,0 +1,103 @@
+@keyframes textCol {
+    0% { color: #ff0000; } /* Red */
+    1% { color: #ff8000; } /* Orange */
+    2% { color: #ffff00; } /* Yellow */
+    3% { color: #80ff00; } /* Yellow-Green */
+    4% { color: #00ff00; } /* Green */
+    5% { color: #00ff80; } /* Teal-Green */
+    6% { color: #00ffff; } /* Cyan */
+    7% { color: #0080ff; } /* Sky Blue */
+    8% { color: #0000ff; } /* Blue */
+    9% { color: #8000ff; } /* Indigo */
+    10% { color: #ff00ff; } /* Purple */
+    11% { color: #ff0080; } /* Pink */
+    12% { color: #ff6666; } /* Light Red */
+    13% { color: #ffcc66; } /* Peach */
+    14% { color: #ffff66; } /* Light Yellow */
+    15% { color: #ccff66; } /* Lime */
+    16% { color: #66ff66; } /* Light Green */
+    17% { color: #66ffcc; } /* Light Aqua */
+    18% { color: #66ffff; } /* Light Cyan */
+    19% { color: #66ccff; } /* Soft Blue */
+    20% { color: #6666ff; } /* Medium Blue */
+    21% { color: #cc66ff; } /* Light Purple */
+    22% { color: #ff66ff; } /* Light Magenta */
+    23% { color: #ff6699; } /* Light Pink */
+    24% { color: #ff3333; } /* Deep Red */
+    25% { color: #ff9933; } /* Deep Orange */
+    26% { color: #ffff33; } /* Deep Yellow */
+    27% { color: #99ff33; } /* Deep Lime */
+    28% { color: #33ff33; } /* Deep Green */
+    29% { color: #33ff99; } /* Deep Aqua */
+    30% { color: #33ffff; } /* Deep Cyan */
+    31% { color: #3399ff; } /* Deep Sky Blue */
+    32% { color: #3333ff; } /* Deep Blue */
+    33% { color: #9933ff; } /* Deep Indigo */
+    34% { color: #ff33ff; } /* Deep Purple */
+    35% { color: #ff3399; } /* Deep Pink */
+    36% { color: #cc0000; } /* Dark Red */
+    37% { color: #cc6600; } /* Dark Orange */
+    38% { color: #cccc00; } /* Dark Yellow */
+    39% { color: #66cc00; } /* Dark Lime */
+    40% { color: #00cc00; } /* Dark Green */
+    41% { color: #00cc66; } /* Dark Aqua */
+    42% { color: #00cccc; } /* Dark Cyan */
+    43% { color: #0066cc; } /* Dark Blue */
+    44% { color: #0000cc; } /* Deep Dark Blue */
+    45% { color: #6600cc; } /* Dark Indigo */
+    46% { color: #cc00cc; } /* Dark Purple */
+    47% { color: #cc0066; } /* Dark Pink */
+    48% { color: #800000; } /* Maroon */
+    49% { color: #804000; } /* Brown */
+    50% { color: #808000; } /* Olive */
+    51% { color: #408000; } /* Dark Lime Green */
+    52% { color: #008000; } /* Deep Green */
+    53% { color: #008040; } /* Deep Teal */
+    54% { color: #008080; } /* Teal */
+    55% { color: #004080; } /* Dark Blue-Gray */
+    56% { color: #000080; } /* Navy */
+    57% { color: #400080; } /* Dark Purple */
+    58% { color: #800080; } /* Purple */
+    59% { color: #800040; } /* Deep Magenta */
+    60% { color: #ff5050; } /* Soft Red */
+    61% { color: #ff9950; } /* Soft Orange */
+    62% { color: #ffff50; } /* Soft Yellow */
+    63% { color: #99ff50; } /* Soft Lime */
+    64% { color: #50ff50; } /* Soft Green */
+    65% { color: #50ff99; } /* Soft Aqua */
+    66% { color: #50ffff; } /* Soft Cyan */
+    67% { color: #5099ff; } /* Soft Blue */
+    68% { color: #5050ff; } /* Soft Indigo */
+    69% { color: #9950ff; } /* Soft Purple */
+    70% { color: #ff50ff; } /* Soft Magenta */
+    71% { color: #ff5099; } /* Soft Pink */
+    72% { color: #e60000; } /* Bright Red */
+    73% { color: #e67300; } /* Bright Orange */
+    74% { color: #e6e600; } /* Bright Yellow */
+    75% { color: #73e600; } /* Bright Lime */
+    76% { color: #00e600; } /* Bright Green */
+    77% { color: #00e673; } /* Bright Aqua */
+    78% { color: #00e6e6; } /* Bright Cyan */
+    79% { color: #0073e6; } /* Bright Blue */
+    80% { color: #0000e6; } /* Bright Indigo */
+    81% { color: #7300e6; } /* Bright Purple */
+    82% { color: #e600e6; } /* Bright Magenta */
+    83% { color: #e60073; } /* Bright Pink */
+    84% { color: #a00000; } /* Intense Red */
+    85% { color: #a05200; } /* Intense Orange */
+    86% { color: #a0a000; } /* Intense Yellow */
+    87% { color: #52a000; } /* Intense Lime */
+    88% { color: #00a000; } /* Intense Green */
+    89% { color: #00a052; } /* Intense Aqua */
+    90% { color: #00a0a0; } /* Intense Cyan */
+    91% { color: #0052a0; } /* Intense Blue */
+    92% { color: #0000a0; } /* Intense Indigo */
+    93% { color: #5200a0; } /* Intense Purple */
+    94% { color: #a000a0; } /* Intense Magenta */
+    95% { color: #a00052; } /* Intense Pink */
+    96% { color: #000000; } /* Black */
+    97% { color: #333333; } /* Dark Gray */
+    98% { color: #666666; } /* Gray */
+    99% { color: #999999; } /* Light Gray */
+    100% { color: #ffffff; } /* White */
+}
