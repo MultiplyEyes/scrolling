@@ -21,6 +21,7 @@
 
 body
 {
+    min-block-size: 1505vh;
     overflow-x: hidden;
     animation-name: bodyCol;
     animation-fill-mode: forwards;
